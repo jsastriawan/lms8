@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!-- Copyright (c) Intel Corporation, 2010 All Rights Reserved. -->
+<Alerts>
+<Alert>
+<Id>iAMT0001</Id>
+<Arg></Arg>
+<Message>System Defense Policy triggered.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0002</Id>
+<Arg></Arg>
+<Message>Agent Presence Agent not started.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0003</Id>
+<Arg></Arg>
+<Message>Agent Presence Agent stopped.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0004</Id>
+<Arg></Arg>
+<Message>Agent Presence: running.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0005</Id>
+<Arg></Arg>
+<Message>Agent Presence: expired.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0006</Id>
+<Arg></Arg>
+<Message>Agent Presence: suspended.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0007</Id>
+<Arg></Arg>
+<Message>Host software attempt to disable AMT Network link detected.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0008</Id>
+<Arg></Arg>
+<Message>Host software attempt to disable AMT Network link detected -- Host Network link blocked.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0009</Id>
+<Arg></Arg>
+<Message>AMT clock or FLASH wear-out protection disabled.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0010</Id>
+<Arg></Arg>
+<Message>Intel(R) AMT Network Interface: Heuristics defense slow threshold trespassed.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0011</Id>
+<Arg></Arg>
+<Message>Intel(R) AMT Network Interface: Heuristics defense fast threshold trespassed.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0012</Id>
+<Arg></Arg>
+<Message>Intel(R) AMT Network Interface: Heuristics defense factory defined threshold trespassed.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0013</Id>
+<Arg></Arg>
+<Message>Intel(R) AMT Network Interface: Heuristics defense Encounter timeout expired.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0014</Id>
+<Arg></Arg>
+<Message>General certificate error.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0015</Id>
+<Arg></Arg>
+<Message>Certificate expired.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0016</Id>
+<Arg></Arg>
+<Message>No trusted root certificate.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0017</Id>
+<Arg></Arg>
+<Message>Not configured to work with server certificate.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0018</Id>
+<Arg></Arg>
+<Message>Certificate revoked.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0019</Id>
+<Arg></Arg>
+<Message>RSA exponent too large.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0020</Id>
+<Arg></Arg>
+<Message>RSA modulus too large.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0021</Id>
+<Arg></Arg>
+<Message>Unsupported digest.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0022</Id>
+<Arg></Arg>
+<Message>Distinguished name too long.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0023</Id>
+<Arg></Arg>
+<Message>Key usage missing.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0024</Id>
+<Arg></Arg>
+<Message>General SSL handshake error.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0025</Id>
+<Arg></Arg>
+<Message>General 802.1x error.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0026</Id>
+<Arg></Arg>
+<Message>AMT Diagnostic AlertEAC error - General NAC error.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0027</Id>
+<Arg></Arg>
+<Message>AMT Diagnostic AlertEAC error - attempt to get a NAC posture while AMT NAC is disabled.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0028</Id>
+<Arg></Arg>
+<Message>AMT Diagnostic AlertEAC error - attempt to get a posture of an unsupported type.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0029</Id>
+<Arg></Arg>
+<Message>Audit log storage is 50% full.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0030</Id>
+<Arg></Arg>
+<Message>Audit log storage is 75% full.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0031</Id>
+<Arg></Arg>
+<Message>Audit log storage is 85% full.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0032</Id>
+<Arg></Arg>
+<Message>Audit log storage is 95% full.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0033</Id>
+<Arg></Arg>
+<Message>Audit log storage is full.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0034</Id>
+<Arg></Arg>
+<Message>Firmware Update Event - Partial.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0035</Id>
+<Arg></Arg>
+<Message>Firmware Update Event - Failure.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0036</Id>
+<Arg></Arg>
+<Message>Remote connectivity initiated.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0037</Id>
+<Arg></Arg>
+<Message>ME Presence event.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0038</Id>
+<Arg>0</Arg>
+<Message>AMT is being unprovisioned using BIOS command.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0038</Id>
+<Arg>1</Arg>
+<Message>AMT is being unprovisioned using Local MEI command.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0038</Id>
+<Arg>2</Arg>
+<Message>AMT is being unprovisioned using Local WS-MAN/SOAP command.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0038</Id>
+<Arg>3</Arg>
+<Message>AMT is being unprovisioned using Remote WS-MAN/SOAP command.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0050</Id>
+<Arg></Arg>
+<Message>User Notification Alert - General Notification.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0050</Id>
+<Arg>16</Arg>
+<Message>User Notification Alert - Circuit Breaker notification (CB Drop TX filter hit.).</Message>
+</Alert>
+<Alert>
+<Id>iAMT0050</Id>
+<Arg>17</Arg>
+<Message>User Notification Alert - Circuit Breaker notification (CB Rate Limit TX filter hit.).</Message>
+</Alert>
+<Alert>
+<Id>iAMT0050</Id>
+<Arg>18</Arg>
+<Message>User Notification Alert - Circuit Breaker notification (CB Drop RX filter hit.).</Message>
+</Alert>
+<Alert>
+<Id>iAMT0050</Id>
+<Arg>19</Arg>
+<Message>User Notification Alert - Circuit Breaker notification (CB Rate Limit RX filter hit.).</Message>
+</Alert>
+<Alert>
+<Id>iAMT0050</Id>
+<Arg>32</Arg>
+<Message>User Notification Alert - EAC notification.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0050</Id>
+<Arg>48</Arg>
+<Message>User Notification Alert - Remote diagnostics - (Remote Redirection session started - SOL).</Message>
+</Alert>
+<Alert>
+<Id>iAMT0050</Id>
+<Arg>49</Arg>
+<Message>User Notification Alert - Remote diagnostics - (Remote Redirection session stopped - SOL).</Message>
+</Alert>
+<Alert>
+<Id>iAMT0050</Id>
+<Arg>50</Arg>
+<Message>User Notification Alert - Remote diagnostics. (Remote Redirection session started - IDE-R).</Message>
+</Alert>
+<Alert>
+<Id>iAMT0050</Id>
+<Arg>51</Arg>
+<Message>User Notification Alert - Remote diagnostics. (Remote Redirection session stopped - IDE-R).</Message>
+</Alert>
+<Alert>
+<Id>iAMT0050</Id>
+<Arg>66</Arg>
+<Message>User Notification Alert - WLAN notification (Host profile mismatch - Management Interface ignored).</Message>
+</Alert>
+<Alert>
+<Id>iAMT0050</Id>
+<Arg>67</Arg>
+<Message>User Notification Alert - WLAN notification (Management device overrides host radio).</Message>
+</Alert>
+<Alert>
+<Id>iAMT0050</Id>
+<Arg>68</Arg>
+<Message>User Notification Alert - WLAN notification (Host profile security mismatch).</Message>
+</Alert>
+<Alert>
+<Id>iAMT0050</Id>
+<Arg>69</Arg>
+<Message>User Notification Alert - WLAN notification (Management device relinquishes control over host Radio).</Message>
+</Alert>
+<Alert>
+<Id>iAMT0051</Id>
+<Arg></Arg>
+<Message>User Notification Alert - SecIo event.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0051</Id>
+<Arg>0</Arg>
+<Message>User Notification Alert - SecIo event semaphore at host.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0051</Id>
+<Arg>1</Arg>
+<Message>User Notification Alert - semaphore at ME.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0051</Id>
+<Arg>2</Arg>
+<Message>User Notification Alert - SecIo event - semaphore timeout.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0052</Id>
+<Arg></Arg>
+<Message>User Notification Alert - KVM session event.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0052</Id>
+<Arg>0</Arg>
+<Message>User Notification Alert - KVM session requested.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0052</Id>
+<Arg>1</Arg>
+<Message>User Notification Alert - KVM session started.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0052</Id>
+<Arg>2</Arg>
+<Message>User Notification Alert - KVM session stopped.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0053</Id>
+<Arg></Arg>
+<Message>User Notification Alert - RCS notification.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0053</Id>
+<Arg>50</Arg>
+<Message>User Notification Alert - RCS notification (HW button pressed. Connection initiated automatically).</Message>
+</Alert>
+<Alert>
+<Id>iAMT0053</Id>
+<Arg>52</Arg>
+<Message>User Notification Alert - RCS notification (HW button pressed. Connection wasn't initiated automatically).</Message>
+</Alert>
+<Alert>
+<Id>iAMT0053</Id>
+<Arg>53</Arg>
+<Message>User Notification Alert - RCS notification (Contracts updated).</Message>
+</Alert>
+<Alert>
+<Id>iAMT0054</Id>
+<Arg></Arg>
+<Message>User Notification Alert - WLAN notification. Wireless Profile sync enablement state changed.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0055</Id>
+<Arg></Arg>
+<Message>User Notification Alert - Provisioning state change notification.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0055</Id>
+<Arg>0</Arg>
+<Message>User Notification Alert - Provisioning state change notification - Pre-configuration.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0055</Id>
+<Arg>1</Arg>
+<Message>User Notification Alert - Provisioning state change notification - In configuration.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0055</Id>
+<Arg>2</Arg>
+<Message>User Notification Alert - Provisioning state change notification - Post-configuration.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0055</Id>
+<Arg>3</Arg>
+<Message>User Notification Alert - Provisioning state change notification - unprovision process has started.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0056</Id>
+<Arg></Arg>
+<Message>User Notification Alert - System Defense change notification.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0057</Id>
+<Arg></Arg>
+<Message>User Notification Alert - Network State change notification.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0058</Id>
+<Arg></Arg>
+<Message>User Notification Alert - Remote Access change notification.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0058</Id>
+<Arg>1</Arg>
+<Message>User Notification Alert - Remote Access change notification - tunnel is closed.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0058</Id>
+<Arg>1</Arg>
+<Message>User Notification Alert - Remote Access change notification - tunnel is open.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0059</Id>
+<Arg></Arg>
+<Message>User Notification Alert - KVM enabled event.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0059</Id>
+<Arg>0</Arg>
+<Message>User Notification Alert - KVM enabled event - KVM disabled.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0059</Id>
+<Arg>1</Arg>
+<Message>User Notification Alert - KVM enabled event - KVM enabled (both from MEBx and PTNI).</Message>
+</Alert>
+<Alert>
+<Id>iAMT0060</Id>
+<Arg></Arg>
+<Message>User Notification Alert - SecIO configuration event.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0061</Id>
+<Arg></Arg>
+<Message>ME FW reset occurred.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0062</Id>
+<Arg></Arg>
+<Message>User Notification Alert - IpSyncEnabled event.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0062</Id>
+<Arg>0</Arg>
+<Message>User Notification Alert - IpSyncEnabled event - IpSync disabled.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0062</Id>
+<Arg>1</Arg>
+<Message>User Notification Alert - IpSyncEnabled event - IpSync enabled.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0063</Id>
+<Arg></Arg>
+<Message>User Notification Alert - HTTP Proxy sync enabled event.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0063</Id>
+<Arg>0</Arg>
+<Message>User Notification Alert - HTTP Proxy sync enabled event - HTTP Proxy Sync disabled.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0063</Id>
+<Arg>1</Arg>
+<Message>User Notification Alert - HTTP Proxy sync enabled event - HTTP Proxy Sync enabled.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0064</Id>
+<Arg></Arg>
+<Message>User Notification Alert - User Consent event.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0064</Id>
+<Arg>1</Arg>
+<Message>User Notification Alert - User Consent event - User Consent granted.</Message>
+</Alert>
+<Alert>
+<Id>iAMT0064</Id>
+<Arg>2</Arg>
+<Message>User Notification Alert - User Consent event - User Consent ended.</Message>
+</Alert>
+</Alerts>
