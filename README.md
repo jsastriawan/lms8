@@ -1,5 +1,7 @@
 # Information
-See [README] (./blob/master/README)
+
+See [README](./blob/master/README) for more detail.
+
 
 # Compilation
 
