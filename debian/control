@@ -1,0 +1,12 @@
+Source: lms8
+Maintainer: Joko Sastriawan <joko.sastriawan@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Section: utils
+
+Package: lms8
+Priority: extra
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}  
+Description: Intel AMT LMS 8 enables communication with MEI from Linux userspace.
+
