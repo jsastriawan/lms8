@@ -1,6 +1,6 @@
 # Information
 
-See [README](./blob/master/README) for more detail.
+See [README](./README) for more detail.
 
 
 # Compilation
