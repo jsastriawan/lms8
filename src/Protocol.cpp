@@ -642,7 +642,7 @@ void Protocol::_closePortForwardRequest(PortForwardRequest *p)
 		}
 	}
 
-	if ((*it2)->GetStatus() == PortForwardRequest::NOT_ACTIVE) {
+	if (found && ((*it2)->GetStatus() == PortForwardRequest::NOT_ACTIVE)) {
 
 		SOCKET serverSocket = (*it2)->GetListeningSocket();
 		delete (*it2);

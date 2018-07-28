@@ -1,5 +1,5 @@
 AC_PREREQ(2.59)
-AC_INIT([lms], [5.0], [www.intel.com])
+AC_INIT([lms], [8.0.0], [www.intel.com])
 AC_CONFIG_SRCDIR([src/main.cpp])
 AC_CONFIG_HEADER([config.h])
 AM_INIT_AUTOMAKE([1.9 foreign])
@@ -67,7 +67,7 @@ AC_CHECK_FUNC(getaddrinfo, [],
 AC_SEARCH_LIBS(getaddrinfo, inet6)
 AC_REPLACE_FUNCS(getaddrinfo getnameinfo)
 
-CPPFLAGS="$CPPFLAGS -D_LINUX"
+CPPFLAGS="$CPPFLAGS -D_LINUX -Wall -Wno-unused-result -Wno-init-self -Wno-sizeof-array-argument -Wno-sizeof-pointer-memaccess "
 
 dnl ***************************
 dnl *** Set debugging flags ***

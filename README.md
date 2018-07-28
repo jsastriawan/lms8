@@ -15,6 +15,14 @@ make
 sudo src/lms
 ```
 
+# Packaging for Debian-based distribution
+
+```
+debuild --no-tgz-check -us -uc
+```
+
+Resulting Debian package is at ../lms8_8.0.0-700_amd64.deb
+
 # TODO:
 - Packaging to deb/rpm
 - Systemd init script
