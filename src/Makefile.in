@@ -281,10 +281,12 @@ LMEConnection.h \
 ConfigConnection.h \
 Protocol.h \
 glue.h \
+build.h \
 version.h \
 ChannelGenerator.h \
 alertIndication.h \
-alertDescription.h
+alertDescription.h \
+defaultAlerts.h 
 
 MAIN_SRCS = main.cpp \
 LMEConnection.cpp \
@@ -293,7 +295,8 @@ Protocol.cpp \
 glue.cpp \
 ChannelGenerator.cpp \
 alertIndication.cpp \
-alertDescription.cpp
+alertDescription.cpp \
+AMTAlerts.xml
 
 SRCS = $(MAIN_SRCS) \
 $(TOOLS_SRCS) \

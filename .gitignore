@@ -50,3 +50,12 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# debian debuild artefacts
+debian/.debhelper
+debian/*.debhelper
+debian/files
+debian/lms8
+debian/lms8.*
+
+

@@ -49,6 +49,7 @@ LMEConnection.h \
 ConfigConnection.h \
 Protocol.h \
 glue.h \
+build.h \
 version.h \
 ChannelGenerator.h \
 alertIndication.h \
