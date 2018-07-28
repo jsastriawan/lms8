@@ -18,7 +18,7 @@ sudo src/lms
 # Packaging for Debian-based distribution
 
 ```
-debuild --no-tgz-check -us -uc
+debuild --no-tgz-check -b -us -uc
 ```
 
 Resulting Debian package is at ../lms8_8.0.0-700_amd64.deb

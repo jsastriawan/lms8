@@ -2,4 +2,9 @@
 %:  
 	dh $@
 override_dh_auto_install:
-	install -D -m 0755 src/lms $$(pwd)/debian/lms/usr/bin/lms
+	install -D -m 0755 src/lms $$(pwd)/debian/lms8/usr/bin/lms
+	install -D -m 0755 src/notifyDesktop.sh $$(pwd)/debian/lms8/usr/bin/notifyDesktop.sh
+	install -D -m 0644 scripts/lms.service $$(pwd)/debian/lms8/lib/systemd/system/lms.service
+
+	dh_systemd_enable || true
+	dh_systemd_start || true
